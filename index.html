@@ -32,8 +32,7 @@ document.addEventListener(visibilityChange, function () {
         // The page is now visible (user returned to the tab)
         // You can resume any paused activities here
         console.log("Page is now visible");
-        displayToast("visible")
-        window.location.href = "https://play.google.com/store/apps/details?id=com.whirlpool.android.wpapp";
+         window.location.href = "https://play.google.com/store/apps/details?id=com.whirlpool.android.wpapp";
 
     }
 });
@@ -43,22 +42,7 @@ if (document[hidden]) {
     console.log("Page is hidden on load");
 } else {
     console.log("Page is visible on load");
-}
-function displayToast(message) {
-  // Create a toast element.
-  var toast = document.createElement("div");
-  toast.className = "toast";
-  toast.innerText = message;
-  // Append the toast element to the document body.
-  document.body.appendChild(toast);
-
-  // Set a timeout to remove the toast element after 2 seconds.
-  setTimeout(function() {
-    document.body.removeChild(toast);
-  }, 2000);
-}
-
-
+} 
     </script>
 
 
