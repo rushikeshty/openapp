@@ -2,8 +2,8 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.example.kotlinapp",
+    "package_name": "com.google.ai.generativelanguage.v1beta1.llmsample",
     "sha256_cert_fingerprints":
-    ["3E:7F:27:D4:65:0E:36:77:17:F9:E7:96:4A:72:DF:9C:65:A6:29:91:BD:C8:B1:CF:7A:07:48:26:68:04:4A:AA"]
+    ["8B:53:30:F5:19:FD:77:58:8F:E7:B8:85:54:F7:F8:D1:15:43:CE:5F:AB:BA:58:FF:EA:8E:12:A8:87:A2:AB:AF"]
   }
 }]
