@@ -4,10 +4,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open app</title>
  <script>
+     let details = navigator.userAgent; 
+  
+let regexp = /android|iphone|kindle|ipad/i; 
+ 
+ 
+let isMobileDevice = regexp.test(details); 
+
+if (isMobileDevice) { 
+    alert("You are using a Mobile Device");
      window.location.href = "https://play.google.com/store/apps/details?id=com.whirlpool.android.wpapp" 
+} else { 
+   alert("You are using Desktop"); 
+     window.location.href = "http://www.whirlpoolcorp.com/" 
+}
+
+
+    
  </script>
 </head>
 <body>
-<h1>Open app</h1>
-</body>
+    <h1>Whirlpool whirlpool...</h1>
+ </body>
 </html>
